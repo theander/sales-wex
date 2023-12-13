@@ -8,6 +8,7 @@
 		<version>3.2.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<packaging>pom</packaging>
 	<groupId>com.wex</groupId>
 	<artifactId>sales</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -16,6 +17,9 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	<modules>
+		<module>sales-service</module>
+	</modules>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
